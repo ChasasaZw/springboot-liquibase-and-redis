@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.3.xsd">
+
+     <changeSet id="3" author="tinashe">
+          <insert tableName="products">
+               <column name="id" valueNumeric="1"/>
+               <column name="name" value="Samsung Galaxy S24"/>
+               <column name="price" valueNumeric="999"/>
+               <column name="description" value="Flagship smartphone from Samsung"/>
+               <column name="category" value="Electronics"/>
+          </insert>
+          <insert tableName="products">
+               <column name="id" valueNumeric="2"/>
+               <column name="name" value="Dell XPS 15"/>
+               <column name="price" valueNumeric="1899"/>
+               <column name="description" value="High-end ultrabook laptop"/>
+               <column name="category" value="Computers"/>
+          </insert>
+          <insert tableName="products">
+               <column name="id" valueNumeric="3"/>
+               <column name="name" value="Nike Air Max"/>
+               <column name="price" valueNumeric="199"/>
+               <column name="description" value="Running shoes with air cushioning"/>
+               <column name="category" value="Footwear"/>
+          </insert>
+          <insert tableName="products">
+               <column name="id" valueNumeric="4"/>
+               <column name="name" value="Apple iPad Pro"/>
+               <column name="price" valueNumeric="1299"/>
+               <column name="description" value="High-performance tablet with M2 chip"/>
+               <column name="category" value="Electronics"/>
+          </insert>
+          <insert tableName="products">
+               <column name="id" valueNumeric="5"/>
+               <column name="name" value="Logitech MX Master 3S"/>
+               <column name="price" valueNumeric="129"/>
+               <column name="description" value="Advanced wireless mouse"/>
+               <column name="category" value="Accessories"/>
+          </insert>
+          <insert tableName="products">
+               <column name="id" valueNumeric="6"/>
+               <column name="name" value="Sony WH-1000XM5"/>
+               <column name="price" valueNumeric="349"/>
+               <column name="description" value="Noise-cancelling wireless headphones"/>
+               <column name="category" value="Audio"/>
+          </insert>
+          <insert tableName="products">
+               <column name="id" valueNumeric="7"/>
+               <column name="name" value="Adidas Ultraboost"/>
+               <column name="price" valueNumeric="180"/>
+               <column name="description" value="Performance running shoes"/>
+               <column name="category" value="Footwear"/>
+          </insert>
+          <insert tableName="products">
+               <column name="id" valueNumeric="8"/>
+               <column name="name" value="Lenovo ThinkPad X1 Carbon"/>
+               <column name="price" valueNumeric="2100"/>
+               <column name="description" value="Business-class ultrabook"/>
+               <column name="category" value="Computers"/>
+          </insert>
+          <insert tableName="products">
+               <column name="id" valueNumeric="9"/>
+               <column name="name" value="Apple Watch Series 9"/>
+               <column name="price" valueNumeric="499"/>
+               <column name="description" value="Smartwatch with fitness tracking"/>
+               <column name="category" value="Wearables"/>
+          </insert>
+          <insert tableName="products">
+               <column name="id" valueNumeric="10"/>
+               <column name="name" value="Canon EOS R7"/>
+               <column name="price" valueNumeric="1599"/>
+               <column name="description" value="Mirrorless camera for professionals"/>
+               <column name="category" value="Cameras"/>
+          </insert>
+     </changeSet>
+
+</databaseChangeLog>

@@ -3,7 +3,7 @@
 services:
   postgres:
     image: postgres:15
-    container_name: postgres-db
+    container_name: liquibase
     restart: always
     environment:
 
@@ -18,7 +18,7 @@ services:
 
   redis:
     image: redis:latest
-    container_name: redis
+    container_name: redis_liquibase
     ports:
       - "6379:6379"
     restart: unless-stopped

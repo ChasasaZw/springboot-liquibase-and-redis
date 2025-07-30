@@ -3,4 +3,8 @@ databaseChangeLog:
       file: db/changelog/db.changelog-main.xml
   - include:
       file: db/changelog/db.changelog-additions.xml
+  - include:
+      file: db/changelog/db.changelog-inserts.xml
+
+
 
